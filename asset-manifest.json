@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Knovator/static/css/main.825998eb.css",
+    "main.js": "/Knovator/static/js/main.4ca0928b.js",
+    "static/media/bannerIMG.png": "/Knovator/static/media/bannerIMG.a808d6a2aa1addcedb67.png",
+    "static/media/orbit_app.png": "/Knovator/static/media/orbit_app.97caf08baa7ba3517086.png",
+    "static/media/profile-menu.svg": "/Knovator/static/media/profile-menu.414605f0fa3b3e8feed8.svg",
+    "static/media/cat2.svg": "/Knovator/static/media/cat2.a1ce3583385b486a53f47a80c90fa3bc.svg",
+    "static/media/cat3.svg": "/Knovator/static/media/cat3.c4b6c03c52e0c5ad44add315dcccfcbc.svg",
+    "static/media/location-icon.svg": "/Knovator/static/media/location-icon.42a8922d6baa33da0c29.svg",
+    "static/media/cat4.svg": "/Knovator/static/media/cat4.1565612b8a2289f8d783506e193f333b.svg",
+    "static/media/cat1.svg": "/Knovator/static/media/cat1.ccde0783a8ff1785c41fd55a73a918eb.svg",
+    "index.html": "/Knovator/index.html",
+    "static/media/globe lang.svg": "/Knovator/static/media/globe lang.36610a73325bca7910a29e439914338c.svg",
+    "static/media/profile.svg": "/Knovator/static/media/profile.183ff5bbb043f8fa084e83125e4cdff8.svg",
+    "static/media/categories-arrow.svg": "/Knovator/static/media/categories-arrow.4408379c7268c2abf8b75d880855d03b.svg",
+    "static/media/offers arrow.svg": "/Knovator/static/media/offers arrow.1fa299d1bb075b7f8b5ce9f9da6fd8fa.svg",
+    "static/media/notification.svg": "/Knovator/static/media/notification.9ba1ab0ea6fb87131e20d2a6ca70c7c2.svg",
+    "static/media/dropdown arrow.svg": "/Knovator/static/media/dropdown arrow.379c14d0d20a2e4954868995801faaca.svg",
+    "static/media/right arrow.svg": "/Knovator/static/media/right arrow.ef0f03a4ac036a7aa4814cabf461e208.svg",
+    "main.825998eb.css.map": "/Knovator/static/css/main.825998eb.css.map",
+    "main.4ca0928b.js.map": "/Knovator/static/js/main.4ca0928b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.825998eb.css",
+    "static/js/main.4ca0928b.js"
+  ]
+}

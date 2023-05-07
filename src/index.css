@@ -1,0 +1,600 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.main-container {
+  padding: 0px 15rem;
+}
+.content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.highlighted{
+  color: #40B5E8; 
+}
+/* Navbar styles */
+.header-section{
+  background-color: #E6F0F9;
+  position: sticky;
+  top:0px;
+  z-index: 1;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.mobile-nav{
+  display: none;
+}
+
+.navbar-items {
+  display: flex;
+}
+.navbar-items li {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-inline: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#employer-link{
+  cursor: pointer;
+  position: relative;
+}
+.navbar-items li:hover{
+  color: #40B5E8;
+  cursor: pointer;
+}
+#employer-link:hover{
+  color: #40B5E8;
+}
+#employer-link i{
+  position: absolute;
+  right: 5px;
+  transition: right 1s;
+}
+#employer-link:hover > i{
+  right:-2px;
+}
+
+.profile{
+  position: relative;
+  cursor: pointer;
+}
+.profile:hover .profile-menu{
+ display: block;
+}
+.profile-menu{
+  display: none;
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #0000001A;
+  border-radius: 5px;
+  width: 195px;
+  padding: 5px;
+  top: 42px;
+  z-index: 1;
+  left: -64px;
+  color : #999999;
+}
+
+.lang-box {
+  border: 1px solid #c2d5e5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  margin-left: 16px;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #e6f0f9;
+  position: relative;
+  width: 100wh;
+}
+
+.search-container {
+  padding: 140px 0;
+  display: grid;
+  row-gap: 20px;
+}
+.search-container span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #999999;
+}
+.search-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  width: 453px;
+  word-wrap: break-word;
+}
+
+.loaction-input, .job-input {
+  position: relative;
+}
+
+.job-input:before {
+  text-align: end;
+  content: "|";
+  position: absolute;
+  z-index: 1;
+  right: -7px;
+  height: 35.11px;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  width: 20px;
+  background: #FFFFFF;
+}
+.loaction-input:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("/src/assets/location-icon.svg") center / contain no-repeat;
+}
+.input-container{
+  display: flex;
+}
+.input-container input {
+  padding: 10px 30px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#right-input{
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0px 10px 30px #0000001A;
+  /* clip-path: inset(-10px -30px -30px 1px); */
+}
+#left-input{
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0px 10px 30px #0000001A;
+  /* clip-path: inset(-10px -1px -30px -30px); */
+}
+.tag-title{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.search-tag {
+  color: #0969c3;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 12px 0px 0px -12px;
+}
+.search-tag li {
+  background: #cfe3f4 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin: 0 6px;
+}
+
+.hero-image {
+  position: absolute;
+  width: 900px;
+  right: 0px;
+  bottom: -58px;
+}
+
+/* Card styles */
+.category-section{
+  margin: 80px 0 90px 0;
+}
+
+.all-categories{
+  display: flex;
+  align-items: center;
+  color: #0969C3;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.all-categories:hover{
+  color:#002745;
+  cursor: pointer;
+}
+
+.all-categories i{
+  right: -15px;
+  position: absolute;
+  transition: right 1s;
+}
+
+.all-categories:hover > i{
+  right: -20px;
+}
+
+.main-container h3{
+  font-size: 30px;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box-header h6{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+
+}
+.card{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2DEDE;
+border-radius: 10px;
+padding: 24px;
+margin-bottom: 20px;
+width: calc(25% - 20px);
+display: flex;
+align-items: center;
+cursor: pointer;
+position: relative;
+}
+.card:hover > i{
+  right: 10px;
+  color: #0969C3;
+}
+.card i{
+  position: absolute;
+  right: 20px;
+  transition: right 1s;
+}
+.card-color{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #0000001A;
+border: 1px solid #0969C3;
+}
+.card-heading{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.card-subheading{
+  color: #333333;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.card-image{
+  margin-right: 20px;
+}
+.job-section{
+  background: #E6F0F9 0% 0% no-repeat padding-box;
+  padding-top: 90px ;
+  padding-bottom: 99px ;
+}
+.box-body li{
+  list-style-type: disc;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+  font-size: 12px;
+  margin-left: 17px ;
+}
+.job-box{
+  padding: 20px;
+  border-radius: 6px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  height: 180px;
+  transition: height 1s;
+  overflow: hidden;
+  z-index: 0;
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.job-box:hover{
+  height: 100%;
+  overflow: visible;
+  z-index: 12;
+}
+.wrapper-job{
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  left: 0px;
+  padding: 0 20px 20px 20px;
+}
+.box-header{
+  display: flex;
+  position: relative;
+}
+.technologies{
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  line-height: 18px;
+}
+.box-footer hr{
+  margin:8px 0;
+}
+.job-card-btn{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: #0969C3 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  background: #0969C3 0% 0% no-repeat padding-box;
+  border-radius: 4px; 
+  border: none;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#bookmark{
+  position: absolute;
+  right: 0;
+}
+.box-header h6{
+  width: 186px;
+  word-wrap: break-word;
+  line-height: 19px;
+}
+.body-header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.body-header h6{
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.body-header span{
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+  font-size: 12px;
+}
+
+/* Job Section */
+.company-img{
+  margin:0 12px 12px 0;
+  width: 40px;
+  height: 40px;
+}
+/* Partners section */
+.partners-section{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.partner-logo{
+  padding-bottom: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.partner-heading{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+#partners-image{
+  width: 100%;
+}
+#linkedin{
+  cursor: pointer;
+}
+
+/* Footers sectioin */
+.footer-grid{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+  font-size: 12px;
+}
+.individual-section{
+  display: block;
+}
+.social-links span{
+  display: flex;
+  align-items: center;
+}
+.social-links img{
+  margin-left: 5px;
+}
+.footer-section p{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+hr{
+  /* color: #999999; */
+  height: 1px;
+        background-color: #e7e7e7;
+        border: none;
+        margin: 30px 0
+}
+
+/* @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+} */
+@media screen and (max-width: 480px) { 
+  /* global styles */
+.navbar{
+  display: none;
+}
+.responsive_nav{
+  transform: translateY(0vh) !important;
+  /* position: fixed */
+}
+.mobile-nav{
+  display: block;
+  background-color: #E6F0F9;
+  position: sticky;
+  top: -1px;
+  padding: 30px;
+  z-index: 6;
+}
+.header-mobile-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-nav-links{
+  margin-top: 30px;
+}
+.active-mobile-navbar{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  padding: 32px;
+  background: #e6f0f9;
+  z-index: 2;
+  height: 100%;
+  width: 100vw;
+  transition: 1s;
+  transform: translateY(-100vh);
+}
+.mobile-nav li{
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid white;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+.mobile-nav-links{
+  position: relative;
+}
+#employer{
+  position: relative;
+}
+.mobile-nav-links li i{
+  left: 130px;
+  position: absolute;
+  top: 20px;
+}
+.mobile-nav-links li:hover{
+  color: #40B5E8;
+}
+.main-container {
+    padding: 0 2rem;
+}
+.search-container{
+  padding: 60px 0;
+}
+.search-container h2 {
+  width: 100%;
+}
+#right-input, #left-input{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#left-input{
+  text-overflow: ellipsis;
+}
+.loaction-input:before{
+  left: 6px;
+  top: -10px;
+}
+.search-tag{
+  display: block;
+}
+.category-header{
+  display: block;
+}
+  .hero-image{
+    display: none;
+  }
+  .search-tag li{
+    margin: 8px 6px;
+  }
+  .content-header{
+    display: block;
+  }
+  .card{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    text-align: left;
+  }
+  .card i{
+    position: absolute;
+    right: 20px;
+  }
+  .all-categories i{
+    left: 130px;
+    top: 6px;
+    transition: left 1s;
+  }
+  .all-categories:hover{
+    color:#002745;
+    cursor: pointer;
+  }
+  .all-categories:hover > i{
+    left: 135px;
+  }
+  .box-container{
+    display: block;
+  }
+  .job-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .job-box{
+    margin-bottom: 20px;  
+    width: 100%;
+  }
+  .partner-logo{
+    display: block;
+  }
+  .partners-section h5 {
+    margin-bottom: 30px;
+}
+  .partner-logo img{
+    margin: 5px 0;
+  }
+  #partners-image{
+    display: none;
+  }
+
+  .input-container{
+    width: 100%;
+    display: block;
+  }
+  .footer-grid{
+    display: block;
+    text-align: center;
+  }
+  .social-links-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-input:before {
+    display: none;
+  }
+}

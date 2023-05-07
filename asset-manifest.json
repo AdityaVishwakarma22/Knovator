@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Knovator/static/css/main.1e22c736.css",
-    "main.js": "/Knovator/static/js/main.d4eb6b62.js",
+    "main.css": "/Knovator/static/css/main.9be5327a.css",
+    "main.js": "/Knovator/static/js/main.5721479a.js",
     "static/media/bannerIMG.png": "/Knovator/static/media/bannerIMG.a808d6a2aa1addcedb67.png",
     "static/media/orbit_app.png": "/Knovator/static/media/orbit_app.97caf08baa7ba3517086.png",
     "static/media/cat2.svg": "/Knovator/static/media/cat2.a1ce3583385b486a53f47a80c90fa3bc.svg",
@@ -16,11 +16,11 @@
     "static/media/offers arrow.svg": "/Knovator/static/media/offers arrow.1fa299d1bb075b7f8b5ce9f9da6fd8fa.svg",
     "static/media/notification.svg": "/Knovator/static/media/notification.9ba1ab0ea6fb87131e20d2a6ca70c7c2.svg",
     "static/media/dropdown arrow.svg": "/Knovator/static/media/dropdown arrow.379c14d0d20a2e4954868995801faaca.svg",
-    "main.1e22c736.css.map": "/Knovator/static/css/main.1e22c736.css.map",
-    "main.d4eb6b62.js.map": "/Knovator/static/js/main.d4eb6b62.js.map"
+    "main.9be5327a.css.map": "/Knovator/static/css/main.9be5327a.css.map",
+    "main.5721479a.js.map": "/Knovator/static/js/main.5721479a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e22c736.css",
-    "static/js/main.d4eb6b62.js"
+    "static/css/main.9be5327a.css",
+    "static/js/main.5721479a.js"
   ]
 }
